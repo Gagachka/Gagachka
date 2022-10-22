@@ -14,6 +14,8 @@ namespace ConsoleApplication7
             Console.WriteLine("Введите ваше имя: ");
             name = Console.ReadLine();
             Console.WriteLine("привет,как твои дела? ",name, "!");
+            name = Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
